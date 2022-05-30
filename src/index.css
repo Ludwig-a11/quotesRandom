@@ -1,0 +1,43 @@
+body{
+  margin: 0%;
+}
+
+p{
+  margin: 0%;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: azure;
+  padding: 80px;
+  width: min(300px,80%);
+  border-radius: 10px;
+  position: relative;
+}
+
+.card-q{
+  font-size: 30px;
+}
+
+.card-p{
+  font-size: 20px;
+}
+
+.card-btn{
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  width: 35px;
+  box-shadow: 1px 1px 8px goldenrod;
+  font-size: 23px;
+  position: relative;
+  left: 85%;
+  cursor: pointer; 
+}
